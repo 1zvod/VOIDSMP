@@ -1,0 +1,24 @@
+# Mojang limits (commonly referenced) ~ 600 requests / 10 minutes / IP
+mojangRequestLimit: 600
+
+# Cache times (seconds)
+premiumCacheTtl: 86400          # 1 day
+negativeCacheTtl: 3600          # 1 hour
+
+# If true: premium players will be auto-logged-in via AuthMe (if installed)
+autoLogin: true
+
+# If true: premium players will be auto-registered in AuthMe (if installed & not registered)
+autoRegister: false
+
+# If true: only check premium for NEW players (reduces Mojang calls a lot)
+checkOnlyNewPlayers: true
+
+# If true: kick players when Mojang API is down and we can't verify
+# (some servers prefer "fail-open"; set false to allow join without premium verification)
+failClosed: false
+
+# Message
+msgAutoLogin: "&a[FastLogin] Logged in automatically."
+msgAutoRegister: "&a[FastLogin] Registered automatically."
+msgNotVerified: "&c[FastLogin] Cannot verify premium status right now."
