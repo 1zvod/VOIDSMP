@@ -1,0 +1,488 @@
+Name: Void Crate
+Description: []
+ItemProvider:
+  Type: VANILLA
+  Tag:
+    Value: '{components:{"minecraft:custom_name":''{"bold":false,"extra":[{"bold":false,"italic":false,"obfuscated":false,"strikethrough":false,"text":"Void Crate","underlined":false}],"italic":false,"obfuscated":false,"strikethrough":false,"text":"","underlined":false}'',"minecraft:profile":{id:[I;-850160402,1534147744,-2009838519,1945945916],name:"1ff041976a09dd05",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZmMDQxOTc2YTA5ZGQwNTNlM2QxZDRlNjExYWFjMDk1OTRkNzRmYzcxYTBlYzRkYTAxMTA0MTZkMzE3ZGJhOCJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+    DataVersion: 4189
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: default
+Opening:
+  Cooldown: 0
+Key:
+  Required: true
+  Ids:
+  - void
+Block:
+  Positions:
+  - 5010,178,5007,world
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: spiral
+    Particle:
+      Name: DRAGON_BREATH
+Milestones:
+  Repeatable: false
+_dataver: 600
+Rewards:
+  List:
+    netherite_sword:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.netherite_sword">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% netherite_sword[enchantments={levels:{sharpness:5,fire_aspect:2,looting:3,unbreaking:3,sweeping_edge:3,mending:1}}]
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:fire_aspect":2,"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:sweeping_edge":3,"minecraft:unbreaking":3}}},count:1,id:"minecraft:netherite_sword"}'
+          DataVersion: 4189
+    bow:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.bow">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% bow[enchantments={levels:{power:5,punch:2,flame:1,infinity:1,unbreaking:3}}]
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:flame":1,"minecraft:infinity":1,"minecraft:power":5,"minecraft:punch":2,"minecraft:unbreaking":3}}},count:1,id:"minecraft:bow"}'
+          DataVersion: 4189
+    netherite_helmet:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.netherite_helmet">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% netherite_helmet[enchantments={levels:{protection:4,unbreaking:3,mending:1,respiration:3,aqua_affinity:1}}]
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:aqua_affinity":1,"minecraft:mending":1,"minecraft:protection":4,"minecraft:respiration":3,"minecraft:unbreaking":3}}},count:1,id:"minecraft:netherite_helmet"}'
+          DataVersion: 4189
+    netherite_chestplate:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.netherite_chestplate">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% netherite_chestplate[enchantments={levels:{protection:4,unbreaking:3,mending:1}}]
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}}},count:1,id:"minecraft:netherite_chestplate"}'
+          DataVersion: 4189
+    netherite_leggings:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.netherite_leggings">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% netherite_leggings[enchantments={levels:{protection:4,unbreaking:3,mending:1,swift_sneak:3}}]
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:mending":1,"minecraft:protection":4,"minecraft:swift_sneak":3,"minecraft:unbreaking":3}}},count:1,id:"minecraft:netherite_leggings"}'
+          DataVersion: 4189
+    netherite_boots:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.netherite_boots">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% netherite_boots[enchantments={levels:{protection:4,feather_falling:4,unbreaking:3,mending:1,depth_strider:3,soul_speed:3}}]
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:depth_strider":3,"minecraft:feather_falling":4,"minecraft:mending":1,"minecraft:protection":4,"minecraft:soul_speed":3,"minecraft:unbreaking":3}}},count:1,id:"minecraft:netherite_boots"}'
+          DataVersion: 4189
+    netherite_pickaxe:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.netherite_pickaxe">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% netherite_sword[enchantments={levels:{sharpness:5,fire_aspect:2,looting:3,unbreaking:3,sweeping_edge:3,mending:1}}]
+      - minecraft:give %player_name% netherite_pickaxe[enchantments={levels:{efficiency:5,unbreaking:3,mending:1,fortune:3}}]
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:unbreaking":3}}},count:1,id:"minecraft:netherite_pickaxe"}'
+          DataVersion: 4189
+    netherite_shovel:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.netherite_shovel">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% netherite_shovel[enchantments={levels:{efficiency:5,unbreaking:3,mending:1,silk_touch:1}}]
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:silk_touch":1,"minecraft:unbreaking":3}}},count:1,id:"minecraft:netherite_shovel"}'
+          DataVersion: 4189
+    netherite_axe:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.netherite_axe">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% netherite_axe[enchantments={levels:{efficiency:5,unbreaking:3,mending:1,sharpness:5}}]
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:unbreaking":3}}},count:1,id:"minecraft:netherite_axe"}'
+          DataVersion: 4189
+    elytra:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.elytra">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% elytra[enchantments={levels:{unbreaking:3,mending:1}}]
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:enchantments":{levels:{"minecraft:mending":1,"minecraft:unbreaking":3}}},count:1,id:"minecraft:elytra"}'
+          DataVersion: 4189
+    totem_of_undying:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.totem_of_undying">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% totem_of_undying 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:totem_of_undying"}'
+          DataVersion: 4189
+    totem_of_undying_1:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.totem_of_undying">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% totem_of_undying 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:totem_of_undying"}'
+          DataVersion: 4189
+    totem_of_undying_2:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.totem_of_undying">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% totem_of_undying 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:1,id:"minecraft:totem_of_undying"}'
+          DataVersion: 4189
+    enchanted_golden_apple:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.enchanted_golden_apple">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% enchanted_golden_apple 8
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:8,id:"minecraft:enchanted_golden_apple"}'
+          DataVersion: 4189
+    netherite_block:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"block.minecraft.netherite_block">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% netherite_block 8
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:8,id:"minecraft:netherite_block"}'
+          DataVersion: 4189
+    nether_star:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.nether_star">
+      Description: []
+      Commands:
+      - minecraft:give %player_name% nether_star 2
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:2,id:"minecraft:nether_star"}'
+          DataVersion: 4189

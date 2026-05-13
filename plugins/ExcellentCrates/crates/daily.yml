@@ -1,0 +1,179 @@
+Name: Common
+Description: []
+ItemProvider:
+  Type: VANILLA
+  Tag:
+    Value: '{components:{"minecraft:custom_name":''{"bold":false,"extra":[{"bold":false,"italic":false,"obfuscated":false,"strikethrough":false,"text":"Daily Crate","underlined":false}],"italic":false,"obfuscated":false,"strikethrough":false,"text":"","underlined":false}'',"minecraft:profile":{id:[I;-850160402,1534147744,-2009838519,1945945916],name:"1ff041976a09dd05",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZmMDQxOTc2YTA5ZGQwNTNlM2QxZDRlNjExYWFjMDk1OTRkNzRmYzcxYTBlYzRkYTAxMTA0MTZkMzE3ZGJhOCJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+    DataVersion: 4189
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: default
+Opening:
+  Cooldown: 0
+Key:
+  Required: true
+  Ids:
+  - common_key
+Block:
+  Positions:
+  - 5008,178,4999,world
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: vortex
+    Particle:
+      Name: ENCHANT
+Milestones:
+  Repeatable: false
+_dataver: 600
+Rewards:
+  List:
+    diamond:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.diamond">
+      Description: []
+      Commands:
+      - give %player_name% diamond 16
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:16,id:"minecraft:diamond"}'
+          DataVersion: 4189
+    golden_apple:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.golden_apple">
+      Description: []
+      Commands:
+      - give %player_name% golden_apple 8
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:8,id:"minecraft:golden_apple"}'
+          DataVersion: 4189
+    experience_bottle:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.experience_bottle">
+      Description: []
+      Commands:
+      - give %player_name% experience_bottle 32
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:32,id:"minecraft:experience_bottle"}'
+          DataVersion: 4189
+    obsidian:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"block.minecraft.obsidian">
+      Description: []
+      Commands:
+      - give %player_name% obsidian 64
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:64,id:"minecraft:obsidian"}'
+          DataVersion: 4189
+    ender_pearl:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.ender_pearl">
+      Description: []
+      Commands:
+      - give %player_name% ender_pearl 16
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:16,id:"minecraft:ender_pearl"}'
+          DataVersion: 4189

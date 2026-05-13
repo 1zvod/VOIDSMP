@@ -58,14 +58,17 @@ scoreboard:
     main:
       title: '&5&l✦ &d&lVOID SMP &5&l✦'
       lines:
-      - '&7&m              '
-      - ' &8▸ &7Kills: &d%statistic_player_kills%'
-      - ' &8▸ &7Deaths: &d%statistic_deaths%'
-      - ' &8▸ &7Rank: &d%group%'
-      - ''
-      - ' &8▸ &7Online: &f%online%'
-      - '&7&m              '
-      - ' %animation:discord-link%'
+      - '&8&m                      '
+      - '  &8▸ &fKills: &d%statistic_player_kills%'
+      - '  &8▸ &fDeaths: &d%statistic_deaths%'
+      - '  &8▸ &fRank: %vault_prefix%'
+      - '  &8▸ &fTeam: %betterteams_color%%betterteams_name%'
+      - '&8&m                      '
+      - '  &8▸ &fCash: &a$%vault_eco_balance_formatted%'
+      - '  &8▸ &fGems: &b0'
+      - '  &8▸ &fOnline: &f%online%'
+      - '&8&m                      '
+      - '  %animation:discord-link%'
 layout:
   enabled: false
 ping-spoof:

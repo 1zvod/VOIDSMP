@@ -1,4 +1,7 @@
 storageType: YAML
-teamNameLookup: []
-playerLookup: []
+teamNameLookup:
+- void:378e0551-4d05-4480-ad3a-7a6bc8b33f80
+playerLookup:
+- 95a290a5-86c3-472a-9c79-8919d74b25f6:378e0551-4d05-4480-ad3a-7a6bc8b33f80
+- a2815fb4-ebe1-4e27-ae56-bddab3347b62:378e0551-4d05-4480-ad3a-7a6bc8b33f80
 chestClaims: []

@@ -1,0 +1,263 @@
+Name: Mythic Crate
+Description: []
+ItemProvider:
+  Type: VANILLA
+  Tag:
+    Value: '{components:{"minecraft:custom_name":''{"bold":false,"extra":[{"bold":false,"italic":false,"obfuscated":false,"strikethrough":false,"text":"Mythic Crate","underlined":false}],"italic":false,"obfuscated":false,"strikethrough":false,"text":"","underlined":false}'',"minecraft:profile":{id:[I;-850160402,1534147744,-2009838519,1945945916],name:"1ff041976a09dd05",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZmMDQxOTc2YTA5ZGQwNTNlM2QxZDRlNjExYWFjMDk1OTRkNzRmYzcxYTBlYzRkYTAxMTA0MTZkMzE3ZGJhOCJ9fX0="}]}},count:1,id:"minecraft:player_head"}'
+    DataVersion: 4189
+ItemStackable: true
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: default
+Opening:
+  Cooldown: 0
+Key:
+  Required: true
+  Ids:
+  - mythic
+Block:
+  Positions:
+  - 5008,178,5005,world
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: heart
+    Particle:
+      Name: CHERRY_LEAVES
+Milestones:
+  Repeatable: false
+_dataver: 600
+Rewards:
+  List:
+    netherite_ingot:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.netherite_ingot">
+      Description: []
+      Commands:
+      - give %player_name% netherite_ingot 16
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:16,id:"minecraft:netherite_ingot"}'
+          DataVersion: 4189
+    end_crystal:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.end_crystal">
+      Description: []
+      Commands:
+      - give %player_name% end_crystal 8
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:8,id:"minecraft:end_crystal"}'
+          DataVersion: 4189
+    enchanted_golden_apple:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.enchanted_golden_apple">
+      Description: []
+      Commands:
+      - give %player_name% enchanted_golden_apple 8
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:8,id:"minecraft:enchanted_golden_apple"}'
+          DataVersion: 4189
+    totem_of_undying:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.totem_of_undying">
+      Description: []
+      Commands:
+      - give %player_name% totem_of_undying 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:5,id:"minecraft:totem_of_undying"}'
+          DataVersion: 4189
+    totem_of_undying_1:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.totem_of_undying">
+      Description: []
+      Commands:
+      - give %player_name% totem_of_undying 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:5,id:"minecraft:totem_of_undying"}'
+          DataVersion: 4189
+    totem_of_undying_2:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.totem_of_undying">
+      Description: []
+      Commands:
+      - give %player_name% totem_of_undying 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:5,id:"minecraft:totem_of_undying"}'
+          DataVersion: 4189
+    totem_of_undying_3:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"item.minecraft.totem_of_undying">
+      Description: []
+      Commands:
+      - give %player_name% totem_of_undying 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:5,id:"minecraft:totem_of_undying"}'
+          DataVersion: 4189
+    beacon:
+      Type: COMMAND
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Name: <lang:"block.minecraft.beacon">
+      Description: []
+      Commands:
+      - give %player_name% beacon 2
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{count:2,id:"minecraft:beacon"}'
+          DataVersion: 4189

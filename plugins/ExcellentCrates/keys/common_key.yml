@@ -1,0 +1,8 @@
+Name: '&a&lCommon Key'
+Virtual: false
+ItemData:
+  Type: VANILLA
+  Tag:
+    Value: '{components:{"minecraft:custom_name":''{"extra":["Common_key Key"],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+    DataVersion: 4189
+ItemStackable: true
