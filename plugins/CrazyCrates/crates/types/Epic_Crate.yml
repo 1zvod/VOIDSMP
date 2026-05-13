@@ -1,0 +1,45 @@
+crate:
+  name: '&cEpic Crate'
+  physical: true
+  preview: true
+  broadcast: true
+  
+physical-key:
+  name: '&cEpic Key'
+  lore:
+    - '&7Right-click on the Epic Crate'
+    - '&7to open it!'
+  item: TRIPWIRE_HOOK
+
+prizes:
+  epic_prize_1:
+    chance: 100
+    items:
+      - NETHERITE_PICKAXE 1 enchantments:EFFICIENCY:5,UNBREAKING:3,FORTUNE:3
+      - NETHERITE_SWORD 1 enchantments:SHARPNESS:5,FIRE_ASPECT:2,LOOTING:3
+      - NETHERITE_CHESTPLATE 1 enchantments:PROTECTION:4
+    weight: 25
+    
+  epic_prize_2:
+    chance: 100
+    items:
+      - NETHERITE_INGOT 8
+      - ENCHANTED_GOLDEN_APPLE 4
+      - TOTEM_OF_UNDYING 4
+    weight: 30
+    
+  epic_prize_3:
+    chance: 100
+    items:
+      - DRAGON_HEAD 1
+      - ELYTRA 1 enchantments:UNBREAKING:3
+      - TRIDENT 1 enchantments:LOYALTY:3,RIPTIDE:3
+    weight: 20
+    
+  mythic_key:
+    chance: 100
+    items:
+      - TRIPWIRE_HOOK 1 name:'&5Mythic Key'
+    weight: 8
+    commands:
+      - 'crazycrates give physical Mythic_Crate 1 %player%'

@@ -1,0 +1,29 @@
+id: discord
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 1e832500-7a4a-4fbb-9591-83d277983473
+world: world
+location:
+  x: 4985.394769697384
+  y: 178.0
+  z: 4999.583735086581
+  yaw: 71.020905
+  pitch: -0.0
+type: player
+properties:
+  skin: prefetched;textures;ewogICJ0aW1lc3RhbXAiIDogMTc3ODYyOTQ5NDcxNywKICAicHJvZmlsZUlkIiA6ICJlYjQ3YzU2OWU3Mjk0ODhkOWYzYjM4YzQ3YTExYWEzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICIxVG9reW8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNkMTczNmFmODE4NDA0NjY1YzIzNzRlMzE1ZWVmNDBjMTJmNzU1NTEzNzBhMzYwYmEyZjRmZGFjZTdjZjVlMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFkZTIxNDE5MDA5ZGI0ODM5MDBkYTYyOThhMWU2Y2JmOWYxYmMxNTIzYTBkY2RjMTYyNjNmYWIxNTA2OTNlZGQiCiAgICB9CiAgfQp9;gn534utxARD6ihVxaquiiW4kCCBK98vnHuNDgk+npXzqbRuWutOHtpZ5s4a+wk10XRPQtdaSeYcA5ARCkifaXMYxTIwKDMEa2EVifB7xkJ6j+JQOjlfCmlI20AXkbQG4GpuOj9rZfbKQPWpUJckYFZnYU9orLeN3o5oEazRApG6l0RKmqpBZBh7w8e6A+aJLWTUd+5Mf1w4vphU8I3NKtZP5/wgEUOd6TIazqFlvSXayB3ncJ41tuLUfJDCuZT9MCKz46iFYt2und/WulJHvZ+YoQh24uH2+SQ+YPOSvQVsqas1mViDMjxV3viqjwSft5IDpseida9Ie9ei7FBwWghAjWCvI55f4wqSg8Ov1bxkmD14lPObsUfZ92WKOid0ZpcGfOVxW610Kew3Y1V4BsDuKNRwbNFUYr4oEK9AU+iwIrYWIEv4Tx4wYWwWObvHeN/9VJTPWLfecAEJrUTSqxtOe8daQQgQuFevk7xYqgFLZsfs5+GePyVPGiC+1LMkaLBy/I2rnhHPMr5anxlOJeA1WI++epesm9KKZmZYjfqqX9PhkyVBMAB8FnFVTAmHBH3NEheOV0Jz60fqAlwcZHYTKnuFVuujJ3DhqSabytAdJr060PxJ1CmdfrszCN4ta89D1yhIDOUUpIrERR/e6lmN8S7j77iqqwSzJo1XtPYE=;
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_cape: 'true'
+  skin_left_leg: 'true'
+  skin_hat: 'true'
+  skin_left_sleeve: 'true'
+  skin_right_leg: 'true'
+hologram:
+  lines:
+  - '&9✦ &b&lDiscord &9✦'
+  - '&7Join our community!'
+  - '&f discord.gg/officialvoid'
+actions:
+- lol.pyr.znpcsplus.interaction.message.MessageAction;JmImbERpc2NvcmQgJjjCuyAmZkpvaW4gdXMgYXQgJm5odHRwczovL2Rpc2NvcmQuZ2cvb2ZmaWNpYWx2b2lk;3000;ANY_CLICK;0

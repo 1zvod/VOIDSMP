@@ -13,6 +13,21 @@
 # Website: https://papermc.io/
 
 _version: 29
+anticheat:
+  obfuscation:
+    items:
+      all-models:
+        also-obfuscate: []
+        dont-obfuscate:
+        - minecraft:lodestone_tracker
+        sanitize-count: true
+      enable-item-obfuscation: false
+      model-overrides:
+        minecraft:elytra:
+          also-obfuscate: []
+          dont-obfuscate:
+          - minecraft:damage
+          sanitize-count: true
 block-updates:
   disable-chorus-plant-updates: false
   disable-mushroom-block-updates: false
@@ -23,9 +38,9 @@ chunk-loading-advanced:
   player-max-concurrent-chunk-generates: 0
   player-max-concurrent-chunk-loads: 0
 chunk-loading-basic:
-  player-max-chunk-generate-rate: -1.0
-  player-max-chunk-load-rate: 100.0
-  player-max-chunk-send-rate: 75.0
+  player-max-chunk-generate-rate: 100.0
+  player-max-chunk-load-rate: 200.0
+  player-max-chunk-send-rate: 100.0
 chunk-system:
   gen-parallelism: default
   io-threads: -1
@@ -34,7 +49,7 @@ collisions:
   enable-player-collisions: true
   send-full-pos-for-hard-colliding-entities: true
 commands:
-  fix-target-selector-tag-completion: true
+  ride-command-allow-player-as-vehicle: false
   suggest-player-names-when-null-tab-completions: true
   time-command-affects-all-worlds: false
 console:
@@ -71,7 +86,7 @@ misc:
   compression-level: default
   fix-entity-position-desync: true
   load-permissions-yml-before-plugins: true
-  max-joins-per-tick: 5
+  max-joins-per-tick: 3
   region-file-cache-size: 256
   strict-advancement-dimension-check: false
   use-alternative-luck-formula: false
@@ -82,11 +97,7 @@ packet-limiter:
     interval: 7.0
     max-packet-rate: 500.0
   kick-message: <red><lang:disconnect.exceeded_packet_rate>
-  overrides:
-    ServerboundPlaceRecipePacket:
-      action: DROP
-      interval: 4.0
-      max-packet-rate: 5.0
+  overrides: {}
 player-auto-save:
   max-per-tick: -1
   rate: -1
@@ -125,12 +136,13 @@ unsupported-settings:
   allow-headless-pistons: false
   allow-permanent-block-break-exploits: false
   allow-piston-duplication: false
-  allow-tripwire-disarming-exploits: false
   allow-unsafe-end-portal-teleportation: false
   compression-format: ZLIB
   perform-username-validation: true
   simplify-remote-item-matching: false
+  skip-tripwire-hook-placement-validation: false
   skip-vanilla-damage-tick-when-shield-blocked: false
+  update-equipment-on-player-actions: true
 watchdog:
   early-warning-delay: 10000
   early-warning-every: 5000

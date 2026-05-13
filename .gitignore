@@ -1,0 +1,56 @@
+# Server jars
+*.jar
+*.exe
+
+# World data (too large for git)
+world/
+world_nether/
+world_the_end/
+
+# Logs
+logs/
+crash-reports/
+*.log
+
+# Caches and temp files
+plugins/.paper-remapped/
+cache/
+libraries/
+versions/
+.console_history
+
+# Databases
+*.db
+*.sqlite
+*.h2.mv.db
+
+# All plugin runtime data (only keep configs)
+plugins/*/data/
+plugins/*/cache/
+plugins/*/userdata/
+plugins/*/logs/
+plugins/AuthMe/
+plugins/GrimAC/
+plugins/LuckPerms/
+plugins/Essentials/userdata/
+plugins/Essentials/logs/
+plugins/voicechat/
+plugins/SkinsRestorer/cache/
+plugins/SkinsRestorer/locales/
+plugins/PlayerAuctions/
+plugins/Chunky/
+plugins/Insights/
+plugins/PlaceholderAPI/expansions/
+plugins/Geyser-Spigot/locales/
+plugins/Geyser-Spigot/packs/
+plugins/_disabled/
+
+# Session/lock files
+*.lock
+session.lock
+uid.dat
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store

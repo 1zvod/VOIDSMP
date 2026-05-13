@@ -1,0 +1,13 @@
+Locations:
+  '1':
+    Crate: Daily_Crate
+    World: world
+    X: 5008
+    Y: 179
+    Z: 4997
+  '2':
+    Crate: Common_Crate
+    World: world
+    X: 5005
+    Y: 179
+    Z: 4999

@@ -1,0 +1,51 @@
+crate:
+  name: '&aCommon Crate'
+  physical: true
+  preview: true
+  broadcast: false
+  
+physical-key:
+  name: '&aCommon Key'
+  lore:
+    - '&7Right-click on the Common Crate'
+    - '&7to open it!'
+  item: TRIPWIRE_HOOK
+
+prizes:
+  common_prize_1:
+    chance: 100
+    items:
+      - IRON_PICKAXE 1 enchantments:EFFICIENCY:3,UNBREAKING:2
+      - IRON_SWORD 1 enchantments:SHARPNESS:2,UNBREAKING:2
+    weight: 35
+    
+  common_prize_2:
+    chance: 100
+    items:
+      - DIAMOND 4
+      - EMERALD 8
+      - GOLD_BLOCK 2
+    weight: 30
+    
+  common_prize_3:
+    chance: 100
+    items:
+      - SHULKER_BOX 2
+      - ENDER_CHEST 1
+    weight: 20
+    
+  rare_key:
+    chance: 100
+    items:
+      - TRIPWIRE_HOOK 1 name:'&dRare Key'
+    weight: 12
+    commands:
+      - 'crazycrates give physical Rare_Crate 1 %player%'
+      
+  epic_key:
+    chance: 100
+    items:
+      - TRIPWIRE_HOOK 1 name:'&cEpic Key'
+    weight: 3
+    commands:
+      - 'crazycrates give physical Epic_Crate 1 %player%'

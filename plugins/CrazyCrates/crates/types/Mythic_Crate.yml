@@ -1,0 +1,45 @@
+crate:
+  name: '&5Mythic Crate'
+  physical: true
+  preview: true
+  broadcast: true
+  
+physical-key:
+  name: '&5Mythic Key'
+  lore:
+    - '&7Right-click on the Mythic Crate'
+    - '&7to open it!'
+  item: TRIPWIRE_HOOK
+
+prizes:
+  mythic_prize_1:
+    chance: 100
+    items:
+      - NETHERITE_PICKAXE 1 enchantments:EFFICIENCY:5,UNBREAKING:3,FORTUNE:3,SILK_TOUCH:1
+      - NETHERITE_SWORD 1 enchantments:SHARPNESS:5,FIRE_ASPECT:2,LOOTING:3,KNOCKBACK:2
+      - NETHERITE_HELMET 1 enchantments:PROTECTION:4,RESPIRATION:3,AQUA_AFFINITY:1
+    weight: 20
+    
+  mythic_prize_2:
+    chance: 100
+    items:
+      - NETHERITE_BLOCK 16
+      - BEACON 4
+      - CONDUIT 2
+    weight: 25
+    
+  mythic_prize_3:
+    chance: 100
+    items:
+      - ENCHANTED_GOLDEN_APPLE 16
+      - TOTEM_OF_UNDYING 8
+      - SHULKER_BOX 8
+    weight: 30
+    
+  mythic_prize_4:
+    chance: 100
+    items:
+      - DRAGON_EGG 1
+      - COMMAND_BLOCK 4
+      - STRUCTURE_BLOCK 4
+    weight: 15

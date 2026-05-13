@@ -1,0 +1,225 @@
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃     UltimateTeams Config     ┃
+# ┃      Developed by xF3d3      ┃
+# ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+# ┃
+# ┗╸ Information: https://modrinth.com/plugin/ultimate-teams
+
+gui:
+  # The name and material of the previous page icon
+  previous_page:
+    name: '&r&7Go to previous page (%prevpage%)'
+    material: ARROW
+  # The name and material of the next page icon
+  next_page:
+    name: '&r&7Go to next page (%nextpage%)'
+    material: ARROW
+  # The name and material of the back button
+  back_button:
+    name: '&r&7Go Back'
+    material: ENDER_EYE
+  # The name and material of the close button
+  close_button:
+    name: '&r&7Close'
+    material: BARRIER
+not_in_team:
+  # Modify this to change the slot of the items. each character is an item.
+  # You can move them as you want as long as you don't modify the structure/size of the lines.
+  layout:
+  - '         '
+  - '   + i   '
+  - '         '
+  # what name would you like the not in team gui to have?
+  name: '&3You are not in a team'
+  # Create team item material (according to the server's version) and lore
+  create_team:
+    material: GREEN_BANNER
+    text:
+    - '&a&lCREATE A TEAM'
+    - ' '
+    - '&r&8&lLEFT CLICK &r&7to create a team'
+  # Team list button material and lore
+  team_list_button:
+    material: CREEPER_BANNER_PATTERN
+    text:
+    - '&3&lTEAMS LIST'
+    - ' '
+    - '&r&8&lLEFT CLICK &r&7to open the teams list'
+team_list:
+  # What name would you like the gui to have?
+  name: '&3Teams List'
+  # Modify this to change the slot of the items.
+  # each character is an item, and the 'g' are the slots for the teams.
+  # You can move them as you want as long as you don't modify the structure/size of the lines.
+  layout:
+  - '         '
+  - '  ggggg  '
+  - '  ggggg  '
+  - '  ggggg  '
+  - '         '
+  - f   c   n
+  icons:
+    # This allows you to customize the lore text for the player head icons in the TeamList GUI
+    lore:
+      header: '&7----------'
+      pvp: '&3Team PvP: &r'
+      home: '&3Team Home: &r'
+      members: '&3Team Members:'
+      prefix: '&3Team Prefix: &r'
+      footer-1: '&f'
+      footer-2: '&7----------'
+      owner-online: '&3Team Owner: &d'
+      owner-offline: '&3Team Owner &7&o(Offline)&3: &d'
+      allies: '&3Team Allies:'
+      managers-color: '&d'
+      allies-color: '&d'
+      managers: '&3Team Managers:'
+      enemies: '&3Team Enemies:'
+      team-name: '&3Team Name: &r'
+      members-color: '&d'
+      action: '&f'
+      enemies-color: '&d'
+team_manager:
+  # What name would you like the gui to have?
+  name: '&3&lTeam Manager'
+  # Modify this to change the slot of the items. each character is an item.
+  # You can move them as you want as long as you don't modify the structure/size of the lines.
+  layout:
+  - '         '
+  - '    x    '
+  - '  abcde  '
+  - '    h    '
+  - '         '
+  - '    y    '
+  info:
+    # Team info item material (according to the server's version).
+    # The displayed information follows the pattern of team-list.icons.lore
+    material: LIGHT_BLUE_BANNER
+  home:
+    # Home item material (according to the server's version)
+    material: COMPASS
+    # Home item name and lore (you can add more lines)
+    text:
+    - '&6&lTEAM HOME'
+    - ' '
+    - '&r&7Home set: &e&l%HOMESET%'
+    - ' '
+    - '&r&7If your team has a home,'
+    - '&r&8&lLEFT CLICK &r&7to TP to the team home'
+    - '&r&8&lRIGHT CLICK &r&7to delete the team home (you must be the team owner)'
+  warps:
+    # Modify this to change the slot of the items.
+    # each character is an item, and the 'g' are the slots for the teams.
+    # You can move them as you want as long as you don't modify the structure/size of the lines.
+    layout:
+    - '         '
+    - '  ggggg  '
+    - '  ggggg  '
+    - '  ggggg  '
+    - '         '
+    - f   b   n
+    # Warps item material (according to the server's version)
+    material: ENDER_PEARL
+    # Warps item name and lore (you can add more lines)
+    text:
+    - '&c&lTEAM WARPS'
+    - ' '
+    - '&r&8&lLEFT CLICK &r&7to open warps manager'
+    manager:
+      # Manager GUI name
+      name: '&3&lWarps Manager'
+      # Manager item name and lore (you can add more lines)
+      text:
+      - '&c&l%WARP%'
+      - ' '
+      - '&r&8&lLEFT CLICK &r&7to TP to the warp position'
+      - '&r&8&lRIGHT CLICK &r&7to delete the warp'
+  members:
+    # Modify this to change the slot of the items.
+    # each character is an item, and the 'g' are the slots for the teams.
+    # You can move them as you want as long as you don't modify the structure/size of the lines.
+    layout:
+    - '         '
+    - '  ggggg  '
+    - '  ggggg  '
+    - '  ggggg  '
+    - '         '
+    - f   b   n
+    # Members item material (according to the server's version)
+    material: PLAYER_HEAD
+    # Members item name and lore (you can add more lines)
+    text:
+    - '&e&lTEAM MEMBERS'
+    - ' '
+    - '&r&8&lLEFT CLICK &r&7to open members manager'
+    manager:
+      # Manager GUI name
+      name: '&3&lMembers Manager'
+      # Manager item name and lore (you can add more lines)
+      text:
+      - '&e&l%NAME%'
+      - ' '
+      - '&r&8&lRIGHT CLICK &r&7to kick the player'
+  pvp:
+    # PvP item material (according to the server's version)
+    material: DIAMOND_SWORD
+    # PvP item name and lore (you can add more lines)
+    text:
+    - '&B&lTEAM PvP'
+    - ' '
+    - '&r&7enabled: &a&l%ENABLED%'
+    - ' '
+    - '&r&8&lLEFT CLICK &r&7to enable/disable team PvP'
+  allies:
+    # Modify this to change the slot of the items.
+    # each character is an item, and the 'g' are the slots for the teams.
+    # You can move them as you want as long as you don't modify the structure/size of the lines.
+    layout:
+    - '         '
+    - '  ggggg  '
+    - '  ggggg  '
+    - '  ggggg  '
+    - '         '
+    - f   b   n
+    # Allies item material (according to the server's version)
+    material: TOTEM_OF_UNDYING
+    # Allies item name and lore (you can add more lines)
+    text:
+    - '&a&lTEAM ALLIES'
+    - ' '
+    - '&r&8&lLEFT CLICK &r&7to open allies manager'
+    manager:
+      # Manager GUI name
+      name: '&3&lAllies Manager'
+      # Manager item name and lore (you can add more lines)
+      text:
+      - '&e&l%NAME%'
+      - ' '
+      - '&r&8&lRIGHT CLICK &r&7to remove the team from your allies'
+  enemies:
+    # Modify this to change the slot of the items.
+    # each character is an item, and the 'g' are the slots for the teams.
+    # You can move them as you want as long as you don't modify the structure/size of the lines.
+    layout:
+    - '         '
+    - '  ggggg  '
+    - '  ggggg  '
+    - '  ggggg  '
+    - '         '
+    - f   b   n
+    # Enemies item material (according to the server's version)
+    material: NETHERITE_SWORD
+    # Enemies item name and lore (you can add more lines)
+    text:
+    - '&4&lTEAM ENEMIES'
+    - ' '
+    - '&r&8&lLEFT CLICK &r&7to open enemies manager'
+    manager:
+      # Manager GUI name
+      name: '&3&lEnemies Manager'
+      # Manager item name and lore (you can add more lines)
+      text:
+      - '&e&l%NAME%'
+      - ' '
+      - '&r&8&lRIGHT CLICK &r&7to delete the team from your enemies (you must be the
+        team owner)'

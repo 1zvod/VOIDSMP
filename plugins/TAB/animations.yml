@@ -1,0 +1,80 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+    - '&5-&d--------------'
+    - '&d-&5-&d-------------'
+    - '&d--&5-&d------------'
+    - '&d---&5-&d-----------'
+    - '&d----&5-&d----------'
+    - '&d-----&5-&d---------'
+    - '&d------&5-&d--------'
+    - '&d-------&5-&d-------'
+    - '&d--------&5-&d------'
+    - '&d---------&5-&d-----'
+    - '&d----------&5-&d----'
+    - '&d-----------&5-&d---'
+    - '&d------------&5-&d--'
+    - '&d-------------&5-&d-'
+    - '&d--------------&5-'
+    - '&d-------------&5-&d-'
+    - '&d------------&5-&d--'
+    - '&d-----------&5-&d---'
+    - '&d----------&5-&d----'
+    - '&d---------&5-&d-----'
+    - '&d--------&5-&d------'
+    - '&d-------&5-&d-------'
+    - '&d------&5-&d--------'
+    - '&d-----&5-&d---------'
+    - '&d----&5-&d----------'
+    - '&d---&5-&d-----------'
+    - '&d--&5-&d------------'
+    - '&d-&5-&d-------------'
+    - '&5-&d--------------'
+
+owner-tag:
+  change-interval: 200
+  texts:
+    - "&4&l[&c&lO&4&lWNER&4&l]"
+    - "&4&l[&4&lO&c&lW&4&lNER&4&l]"
+    - "&4&l[&4&lOW&c&lN&4&lER&4&l]"
+    - "&4&l[&4&lOWN&c&lE&4&lR&4&l]"
+    - "&4&l[&4&lOWNE&c&lR&4&l]"
+    - "&4&l[&0&lO&4&lWNER&4&l]"
+    - "&4&l[&4&lO&0&lW&4&lNER&4&l]"
+    - "&4&l[&4&lOW&0&lN&4&lER&4&l]"
+    - "&4&l[&4&lOWN&0&lE&4&lR&4&l]"
+    - "&4&l[&4&lOWNE&0&lR&4&l]"
+
+discord-link:
+  change-interval: 200
+  texts:
+    - '&8discord.gg/officialvoid'
+    - '&8discord.gg/officialvoid'
+    - '&8discord.gg/officialvoid'
+    - '&8discord.gg/officialvoid'
+    - '&5d&8iscord.gg/officialvoid'
+    - '&8d&5i&8scord.gg/officialvoid'
+    - '&8di&5s&8cord.gg/officialvoid'
+    - '&8dis&5c&8ord.gg/officialvoid'
+    - '&8disc&5o&8rd.gg/officialvoid'
+    - '&8disco&5r&8d.gg/officialvoid'
+    - '&8discor&5d&8.gg/officialvoid'
+    - '&8discord&5.&8gg/officialvoid'
+    - '&8discord.&5g&8g/officialvoid'
+    - '&8discord.g&5g&8/officialvoid'
+    - '&8discord.gg&5/&8officialvoid'
+    - '&8discord.gg/&5o&8fficialvoid'
+    - '&8discord.gg/o&5f&8ficialvoid'
+    - '&8discord.gg/of&5f&8icialvoid'
+    - '&8discord.gg/off&5i&8cialvoid'
+    - '&8discord.gg/offi&5c&8ialvoid'
+    - '&8discord.gg/offic&5i&8alvoid'
+    - '&8discord.gg/offici&5a&8lvoid'
+    - '&8discord.gg/official&5v&8oid'
+    - '&8discord.gg/officialv&5o&8id'
+    - '&8discord.gg/officialvo&5i&8d'
+    - '&8discord.gg/officialvoi&5d'
+    - '&8discord.gg/officialvoid'
+    - '&8discord.gg/officialvoid'
+    - '&8discord.gg/officialvoid'
+    - '&8discord.gg/officialvoid'

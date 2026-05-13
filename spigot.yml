@@ -53,6 +53,7 @@ commands:
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
+  enable-spam-exclusions: false
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
@@ -63,8 +64,8 @@ world-settings:
     dragon-death-sound-radius: 0
     end-portal-sound-radius: 0
     merge-radius:
-      item: 3.5
-      exp: 6.0
+      item: 4.0
+      exp: 8.0
     hunger:
       jump-walk-exhaustion: 0.05
       jump-sprint-exhaustion: 0.2
@@ -80,19 +81,19 @@ world-settings:
     hopper-can-load-chunks: false
     zombie-aggressive-towards-villager: true
     enable-zombie-pigmen-portal-spawns: true
-    mob-spawn-range: 8
-    item-despawn-rate: 6000
-    arrow-despawn-rate: 1200
-    trident-despawn-rate: 1200
+    mob-spawn-range: 6
+    item-despawn-rate: 4000
+    arrow-despawn-rate: 300
+    trident-despawn-rate: 300
     nerf-spawner-mobs: false
     unload-frozen-chunks: false
     entity-tracking-range:
       players: 128
-      animals: 96
-      monsters: 96
-      misc: 96
+      animals: 48
+      monsters: 48
+      misc: 32
       display: 128
-      other: 64
+      other: 48
     max-tick-time:
       tile: 50
       entity: 50
@@ -143,12 +144,12 @@ world-settings:
     seed-mineshaft: default
     seed-stronghold: default
     entity-activation-range:
-      animals: 24
+      animals: 16
       monsters: 24
       raiders: 48
-      misc: 12
-      water: 12
-      villagers: 24
+      misc: 8
+      water: 8
+      villagers: 16
       flying-monsters: 48
       wake-up-inactive:
         animals-max-per-tick: 4
@@ -168,6 +169,8 @@ world-settings:
       villagers-active-for-panic: true
       tick-inactive-villagers: false
       ignore-spectators: false
+    verbose: false
+  worldeditregentempworld:
     verbose: false
 advancements:
   disable-saving: false

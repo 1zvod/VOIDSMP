@@ -1,0 +1,63 @@
+crate:
+  name: '&fDaily Crate'
+  physical: true
+  max-openings: 1
+  cooldown: 86400
+  preview: true
+  broadcast: false
+  
+physical-key:
+  name: '&fDaily Key'
+  lore:
+    - '&7Right-click on the Daily Crate'
+    - '&7to open it!'
+  item: TRIPWIRE_HOOK
+
+prizes:
+  daily_prize_1:
+    chance: 100
+    items:
+      - OAK_PLANKS 32
+      - COBBLESTONE 32
+      - COOKED_BEEF 16
+    weight: 40
+    
+  daily_prize_2:
+    chance: 100
+    items:
+      - IRON_INGOT 8
+      - GOLD_INGOT 4
+      - EMERALD 2
+    weight: 30
+    
+  common_key:
+    chance: 100
+    items:
+      - TRIPWIRE_HOOK 1 name:'&aCommon Key'
+    weight: 25
+    commands:
+      - 'crazycrates give physical Common_Crate 1 %player%'
+      
+  rare_key:
+    chance: 100
+    items:
+      - TRIPWIRE_HOOK 1 name:'&dRare Key'
+    weight: 10
+    commands:
+      - 'crazycrates give physical Rare_Crate 1 %player%'
+      
+  epic_key:
+    chance: 100
+    items:
+      - TRIPWIRE_HOOK 1 name:'&cEpic Key'
+    weight: 3
+    commands:
+      - 'crazycrates give physical Epic_Crate 1 %player%'
+      
+  mythic_key:
+    chance: 100
+    items:
+      - TRIPWIRE_HOOK 1 name:'&5Mythic Key'
+    weight: 1
+    commands:
+      - 'crazycrates give physical Mythic_Crate 1 %player%'

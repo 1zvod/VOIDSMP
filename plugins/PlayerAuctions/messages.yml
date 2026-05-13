@@ -1,0 +1,278 @@
+# ════════════════════════════════════════════════════════════════════════════════
+#                        PLAYERAUCTIONS - MESSAGES CONFIGURATION
+# ════════════════════════════════════════════════════════════════════════════════
+#
+# 🎨 MODERN COLOR PALETTE (Unique Hex Colors - NOT Legacy Minecraft):
+#
+#   PRIMARY:
+#   ├─ Amber Gold    : #F5A623  → Prices, highlights
+#   ├─ Emerald       : #2ECC71  → Success
+#   ├─ Coral Red     : #E74C3C  → Errors
+#   ├─ Sky Blue      : #3498DB  → Information
+#   └─ Orchid Purple : #9B59B6  → Special
+#
+#   NEUTRAL:
+#   ├─ Cloud White   : #ECF0F1  → Primary text
+#   ├─ Silver        : #BDC3C7  → Secondary text
+#   ├─ Slate Gray    : #7F8C8D  → Labels
+#   └─ Charcoal      : #2C3E50  → Separators
+#
+#   ACCENT:
+#   ├─ Sunflower     : #F1C40F  → Warnings
+#   └─ Carrot        : #E67E22  → Secondary accent
+#
+# ════════════════════════════════════════════════════════════════════════════════
+
+# ════════════════════════════════════════
+# PREFIX
+# ════════════════════════════════════════
+prefix: "<#F5A623><bold>PlayerAuctions</bold></#F5A623> <#2C3E50>›</#2C3E50> "
+
+# ════════════════════════════════════════
+# AUCTION MESSAGES
+# ════════════════════════════════════════
+auction:
+  purchase-success: "<#2ECC71>●</#2ECC71> <#ECF0F1>Purchased</#ECF0F1> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>for</#7F8C8D> <#F5A623>{price}</#F5A623>"
+  sold: "<#F5A623>★</#F5A623> <#ECF0F1>Sold</#ECF0F1> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>for</#7F8C8D> <#2ECC71>{price}</#2ECC71>"
+  expired: "<#E67E22>⏱</#E67E22> <#ECF0F1>Auction expired</#ECF0F1> <#7F8C8D>›</#7F8C8D> <#FFFFFF>{item}</#FFFFFF>"
+  search_no_results: "<#E74C3C>○</#E74C3C> <#BDC3C7>No results for</#BDC3C7> <#F1C40F>'{keyword}'</#F1C40F>"
+  cancel-success: "<#2ECC71>●</#2ECC71> <#ECF0F1>Cancelled</#ECF0F1> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>› returned to mailbox</#7F8C8D>"
+
+# ════════════════════════════════════════
+# BROADCAST MESSAGES
+# ════════════════════════════════════════
+broadcast:
+  item-listed: "<#F5A623>🛒</#F5A623> <#ECF0F1>{player}</#ECF0F1> <#7F8C8D>listed</#7F8C8D> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>×{quantity} for</#7F8C8D> <#2ECC71>{price}</#2ECC71> <#7F8C8D>›</#7F8C8D> <#3498DB><click:run_command:/ah><u>View Auction</u></click></#3498DB>"
+  item-purchased: "<#2ECC71>✔</#2ECC71> <#ECF0F1>{buyer}</#ECF0F1> <#7F8C8D>bought</#7F8C8D> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>×{quantity} from</#7F8C8D> <#ECF0F1>{seller}</#ECF0F1> <#7F8C8D>for</#7F8C8D> <#F5A623>{price}</#F5A623>"
+
+# ════════════════════════════════════════
+# ERROR MESSAGES
+# ════════════════════════════════════════
+errors:
+  no-permission: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Permission denied</#BDC3C7>"
+
+  usage-sell: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Usage:</#BDC3C7> <#3498DB>/ah sell <price> [buyNow] [duration]</#3498DB>"
+  usage-search: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Usage:</#BDC3C7> <#3498DB>{usage}</#3498DB>"
+  usage-notify: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Usage:</#BDC3C7> <#3498DB>{usage}</#3498DB>"
+  usage-duration: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Invalid duration</#BDC3C7> <#7F8C8D>› Use:</#7F8C8D> <#3498DB>1h, 24h, 3d, 1w</#3498DB>"
+  usage-debug: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Usage:</#BDC3C7> <#3498DB>{usage}</#3498DB>"
+  usage-admin: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Usage:</#BDC3C7> <#3498DB>{usage}</#3498DB>"
+
+  invalid-category: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Invalid category:</#BDC3C7> <#F1C40F>{category}</#F1C40F>"
+  not-a-number: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Invalid number</#BDC3C7> <#7F8C8D>› Example:</#7F8C8D> <#3498DB>100</#3498DB>"
+  no-item-in-hand: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Hold an item to list</#BDC3C7>"
+
+  price-too-low: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Price too low</#BDC3C7> <#7F8C8D>› Min:</#7F8C8D> <#F5A623>{min}</#F5A623>"
+  price-too-high: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Price too high</#BDC3C7> <#7F8C8D>› Max:</#7F8C8D> <#F5A623>{max}</#F5A623>"
+  duration-out-of-range: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Duration must be</#BDC3C7> <#3498DB>{min}</#3498DB> <#7F8C8D>to</#7F8C8D> <#3498DB>{max}</#3498DB>"
+
+  auction-not-found: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Auction not found</#BDC3C7>"
+  cannot-buy-own: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Cannot buy your own item</#BDC3C7>"
+  buy-fail: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Purchase failed</#BDC3C7> <#7F8C8D>› Item may be sold</#7F8C8D>"
+
+  economy-fail: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Economy error</#BDC3C7> <#7F8C8D>› Contact admin</#7F8C8D>"
+  inventory-full: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Inventory full</#BDC3C7>"
+  player-not-found: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Player not found:</#BDC3C7> <#F1C40F>{player}</#F1C40F>"
+
+  listing-limit-reached: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Listing limit reached</#BDC3C7> <#7F8C8D>› Max:</#7F8C8D> <#3498DB>{limit}</#3498DB>"
+  not-your-auction: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Not your auction</#BDC3C7>"
+  auction-not-active: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Auction not active</#BDC3C7>"
+
+  reload-fail: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Reload failed</#BDC3C7> <#7F8C8D>› Check console</#7F8C8D>"
+  reload-success: "<#2ECC71>●</#2ECC71> <#ECF0F1>Configuration reloaded</#ECF0F1>"
+
+  generic-error: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Something went wrong</#BDC3C7>"
+  too-few-items: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Not enough items</#BDC3C7>"
+  not-enough-money: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Insufficient funds</#BDC3C7> <#7F8C8D>› Need:</#7F8C8D> <#F5A623>{amount}</#F5A623>"
+  insufficient-funds: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Insufficient funds</#BDC3C7> <#7F8C8D>› Need:</#7F8C8D> <#F5A623>{needed}</#F5A623> <#7F8C8D>Have:</#7F8C8D> <#2ECC71>{balance}</#2ECC71>"
+
+  invalid-auction-params: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Invalid parameters</#BDC3C7>"
+  cannot-cancel-status: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Cannot cancel this auction</#BDC3C7>"
+  cancel-failed: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Cancellation failed</#BDC3C7>"
+
+  auction-parameters-validation:
+    min-price: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Price too low</#BDC3C7> <#7F8C8D>› Min:</#7F8C8D> <#F5A623>{min}</#F5A623>"
+    buy-now-higher: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Buy-now must exceed starting price</#BDC3C7>"
+    reserve-higher: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Reserve must exceed starting price</#BDC3C7>"
+    duration-too-long: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Duration too long</#BDC3C7> <#7F8C8D>› Max:</#7F8C8D> <#3498DB>{max_duration}</#3498DB>"
+
+  player-only: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Players only</#BDC3C7>"
+  unknown-command: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Unknown command:</#BDC3C7> <#F1C40F>{command}</#F1C40F>"
+
+  empty-search-query: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Empty query</#BDC3C7> <#7F8C8D>› Type 'cancel' to exit</#7F8C8D>"
+  search-query-too-short: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Query too short</#BDC3C7> <#7F8C8D>› Min 2 characters</#7F8C8D>"
+  search-query-too-long: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Query too long</#BDC3C7> <#7F8C8D>› Max 50 characters</#7F8C8D>"
+
+# ════════════════════════════════════════
+# INFO MESSAGES
+# ════════════════════════════════════════
+info:
+  enter-search-query: "<#3498DB>◎</#3498DB> <#ECF0F1>Search mode</#ECF0F1> <#7F8C8D>› Type query or 'cancel'</#7F8C8D>"
+
+  listed: "<#2ECC71>●</#2ECC71> <#ECF0F1>Listed</#ECF0F1> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>›</#7F8C8D> <#F5A623>{price}</#F5A623> <#7F8C8D>›</#7F8C8D> <#3498DB>{duration}</#3498DB>"
+
+  notifications-on: "<#2ECC71>●</#2ECC71> <#ECF0F1>Notifications enabled</#ECF0F1>"
+  notifications-off: "<#E67E22>○</#E67E22> <#BDC3C7>Notifications disabled</#BDC3C7>"
+
+  bought: "<#2ECC71>●</#2ECC71> <#ECF0F1>Purchased</#ECF0F1> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>for</#7F8C8D> <#F5A623>{amount}</#F5A623>"
+
+  sold: "<#F5A623>★</#F5A623> <#ECF0F1>Sold</#ECF0F1> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>for</#7F8C8D> <#F5A623>{amount}</#F5A623> <#7F8C8D>› Tax:</#7F8C8D> <#E74C3C>{tax}%</#E74C3C> <#7F8C8D>› Net:</#7F8C8D> <#2ECC71>{net_amount}</#2ECC71>"
+
+  expired-returned: "<#E67E22>⏱</#E67E22> <#BDC3C7>Expired</#BDC3C7> <#7F8C8D>›</#7F8C8D> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>returned</#7F8C8D>"
+  cancelled: "<#2ECC71>●</#2ECC71> <#ECF0F1>Cancelled</#ECF0F1> <#7F8C8D>›</#7F8C8D> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>returned</#7F8C8D>"
+
+  confirm-cancel: "<#E67E22>?</#E67E22> <#ECF0F1>Cancel</#ECF0F1> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>at</#7F8C8D> <#F5A623>{price}</#F5A623><#7F8C8D>?</#7F8C8D>"
+  create-auction-unavailable: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Feature unavailable</#BDC3C7>"
+  reload-success: "<#2ECC71>●</#2ECC71> <#ECF0F1>Configuration reloaded</#ECF0F1>"
+
+  search-cancelled: "<#E67E22>○</#E67E22> <#BDC3C7>Search cancelled</#BDC3C7>"
+  search-started: "<#3498DB>◎</#3498DB> <#ECF0F1>Searching</#ECF0F1> <#7F8C8D>›</#7F8C8D> <#F1C40F>\"{query}\"</#F1C40F>"
+
+# ════════════════════════════════════════
+# ADMIN MESSAGES
+# ════════════════════════════════════════
+admin:
+  debug-enabled: "<#2ECC71>●</#2ECC71> <#ECF0F1>Debug mode enabled</#ECF0F1>"
+  debug-disabled: "<#E67E22>○</#E67E22> <#BDC3C7>Debug mode disabled</#BDC3C7>"
+  cannot-interact-with-own: "<#E74C3C>✕</#E74C3C> <#BDC3C7>Enable debug mode first</#BDC3C7>"
+
+# ════════════════════════════════════════
+# MAILBOX MESSAGES
+# ════════════════════════════════════════
+mailbox:
+  received-money: "<#2ECC71>●</#2ECC71> <#ECF0F1>Received</#ECF0F1> <#F5A623>{amount}</#F5A623> <#7F8C8D>› {note}</#7F8C8D>"
+  received-item: "<#2ECC71>●</#2ECC71> <#ECF0F1>Received</#ECF0F1> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>› {note}</#7F8C8D>"
+  claimed-money: "<#2ECC71>●</#2ECC71> <#ECF0F1>Claimed</#ECF0F1> <#F5A623>{amount}</#F5A623>"
+  claimed-item: "<#2ECC71>●</#2ECC71> <#ECF0F1>Claimed</#ECF0F1> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>x{quantity}</#7F8C8D>"
+  no-items: "<#7F8C8D>○</#7F8C8D> <#BDC3C7>Mailbox empty</#BDC3C7>"
+  items-waiting: "<#F5A623>📬</#F5A623> <#ECF0F1>Mailbox</#ECF0F1> <#7F8C8D>›</#7F8C8D> <#2ECC71>{count}</#2ECC71> <#7F8C8D>items waiting</#7F8C8D>"
+  claimed-all: "<#2ECC71>●</#2ECC71> <#ECF0F1>Claimed</#ECF0F1> <#2ECC71>{count}</#2ECC71> <#7F8C8D>items</#7F8C8D>"
+  item-not-found: "<#E74C3C>●</#E74C3C> <#ECF0F1>Item not found in mailbox</#ECF0F1>"
+  not-your-item: "<#E74C3C>●</#E74C3C> <#ECF0F1>This item doesn't belong to you</#ECF0F1>"
+  already-claimed: "<#E74C3C>●</#E74C3C> <#ECF0F1>Item already claimed</#ECF0F1>"
+  item-expired: "<#E74C3C>●</#E74C3C> <#ECF0F1>This item has expired</#ECF0F1>"
+  claim-failed: "<#E74C3C>●</#E74C3C> <#ECF0F1>Failed to claim item</#ECF0F1>"
+  inventory-full: "<#E74C3C>●</#E74C3C> <#ECF0F1>Your inventory is full</#ECF0F1>"
+  deposit-failed: "<#E74C3C>●</#E74C3C> <#ECF0F1>Failed to deposit money</#ECF0F1>"
+  money-claimed: "<#2ECC71>●</#2ECC71> <#ECF0F1>Claimed</#ECF0F1> <#F5A623>{amount}</#F5A623>"
+  item-claimed: "<#2ECC71>●</#2ECC71> <#ECF0F1>Claimed</#ECF0F1> <#FFFFFF>{item}</#FFFFFF> <#7F8C8D>x{quantity}</#7F8C8D>"
+
+# ════════════════════════════════════════════════════════════════════════════════
+# GUI MESSAGES - Modern Hex Colors (no legacy codes)
+# ════════════════════════════════════════════════════════════════════════════════
+gui:
+  main-title: "<#F5A623>ᴘʟᴀʏᴇʀᴀᴜᴄᴛɪᴏɴs"
+  my-listings-title: "<#3498DB>ᴍʏ ʟɪsᴛɪɴɢs"
+  mailbox-title: "<#2ECC71>ᴍᴀɪʟʙᴏx"
+  history-title: "<#9B59B6>ʜɪsᴛᴏʀʏ"
+
+  control-items:
+    previous-page: "<#2ECC71>‹ ᴘʀᴇᴠ"
+    previous-page-lore:
+      - ""
+      - "<#BDC3C7>Go to previous page"
+      - ""
+      - "<#7F8C8D>Page <#ECF0F1>{current_page} <#7F8C8D>of <#ECF0F1>{total_pages}"
+
+    next-page: "<#2ECC71>ɴᴇxᴛ ›"
+    next-page-lore:
+      - ""
+      - "<#BDC3C7>Go to next page"
+      - ""
+      - "<#7F8C8D>Page <#ECF0F1>{current_page} <#7F8C8D>of <#ECF0F1>{total_pages}"
+
+    close: "<#E74C3C>✕ ᴄʟᴏsᴇ"
+    close-lore:
+      - ""
+      - "<#BDC3C7>Close this menu"
+
+    sort: "<#F5A623>⚙ sᴏʀᴛ"
+    sort-lore:
+      - ""
+      - "<#BDC3C7>Current: <#ECF0F1>{sort_order}"
+      - ""
+      - "<#7F8C8D>› Newest First"
+      - "<#7F8C8D>› Price Low → High"
+      - "<#7F8C8D>› Price High → Low"
+      - "<#7F8C8D>› Ending Soon"
+      - ""
+      - "<#F5A623>Click to change"
+
+
+    my-listings: "<#E67E22>◈ ᴍʏ ʟɪsᴛɪɴɢs"
+    my-listings-lore:
+      - ""
+      - "<#BDC3C7>View your auctions"
+      - ""
+      - "<#7F8C8D>Active: <#ECF0F1>{count}<#7F8C8D>/<#ECF0F1>{max}"
+      - ""
+      - "<#E67E22>Click to view"
+
+    mailbox: "<#2ECC71>✉ ᴍᴀɪʟʙᴏx"
+    mailbox-lore:
+      - ""
+      - "<#BDC3C7>Pending items & money"
+      - ""
+      - "<#7F8C8D>Unclaimed: <#ECF0F1>{count}"
+      - ""
+      - "<#2ECC71>Click to open"
+
+    back: "<#F5A623>‹ ʙᴀᴄᴋ"
+    back-lore:
+      - ""
+      - "<#BDC3C7>Return to previous menu"
+
+    player-info:
+      - ""
+      - "<#F5A623>{player_name}"
+      - ""
+      - "<#7F8C8D>Balance  <#2ECC71>{balance}"
+      - "<#7F8C8D>Page     <#ECF0F1>{page}<#7F8C8D>/<#ECF0F1>{total_pages}"
+      - ""
+
+  # ════════════════════════════════════════
+  # ITEM LORE - Complete Auction Statistics
+  # ════════════════════════════════════════
+  item-lore:
+    - ""
+    - "<#2C3E50>━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    - "<#7F8C8D>         ᴀᴜᴄᴛɪᴏɴ ᴅᴇᴛᴀɪʟs"
+    - "<#2C3E50>━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    - "<#7F8C8D>Seller       <#ECF0F1>{seller}"
+    - "<#7F8C8D>Quantity     <#ECF0F1>{quantity}x"
+    - "<#2C3E50>─────── ᴘʀɪᴄɪɴɡ ───────"
+    - "<#7F8C8D>Price        <#F5A623>{starting_price}"
+    - "<#2C3E50>─────── ᴛɪᴍᴇ ───────"
+    - "<#7F8C8D>Listed       <#BDC3C7>{listed_date}"
+    - "<#7F8C8D>Ends in      {time_color}{time_left}"
+    - "<#7F8C8D>Duration     <#BDC3C7>{duration}"
+    - "<#7F8C8D>Status       {status_color}{status}"
+    - "<#2C3E50>━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+  item-action:
+    can-purchase: "<#2ECC71>▶ ʟᴇғᴛ-ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ ɴᴏᴡ"
+    insufficient-funds: "<#E74C3C>✕ ɪɴsᴜғғɪᴄɪᴇɴᴛ ғᴜɴᴅs\n<#7F8C8D>Need: <#F5A623>{needed_amount}"
+    own-auction: "<#E67E22>◈ ʏᴏᴜʀ ᴀᴜᴄᴛɪᴏɴ\n<#7F8C8D>Click to manage"
+
+  my-listings-lore:
+    - ""
+    - "<#2C3E50>━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    - "<#7F8C8D>        ʏᴏᴜʀ ʟɪsᴛɪɴɢ"
+    - "<#2C3E50>━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    - "<#7F8C8D>Quantity     <#ECF0F1>{quantity}x"
+    - "<#2C3E50>─────── ᴘʀɪᴄɪɴɡ ───────"
+    - "<#7F8C8D>Price        <#F5A623>{starting_price}"
+    - "<#2C3E50>─────── ᴛɪᴍᴇ ───────"
+    - "<#7F8C8D>Listed       <#BDC3C7>{listed_date}"
+    - "<#7F8C8D>Ends in      {time_color}{time_left}"
+    - "<#7F8C8D>Duration     <#BDC3C7>{duration}"
+    - ""
+    - "<#7F8C8D>Status       {status_color}{status}"
+    - "<#2C3E50>━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+  status:
+    active: "<#2ECC71>● ᴀᴄᴛɪᴠᴇ"
+    expired: "<#E74C3C>● ᴇxᴘɪʀᴇᴅ"
+    sold: "<#F5A623>★ sᴏʟᴅ"
+    cancelled: "<#7F8C8D>○ ᴄᴀɴᴄᴇʟʟᴇᴅ"
+    reserve_not_met: "<#E67E22>⚠ ʀᴇsᴇʀᴠᴇ ɴᴏᴛ ᴍᴇᴛ"
