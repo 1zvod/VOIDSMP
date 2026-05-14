@@ -1,0 +1,200 @@
+version: 2 # DO NOT CHANGE
+holograms:
+  starterkit:
+    type: TEXT
+    location:
+      world: world
+      x: 4979.898372006291
+      y: 179.75596806856296
+      z: 5002.6834736308565
+      yaw: -84.14169
+      pitch: 6.382343
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&6&l✦ STARTER KIT ✦'
+    - '&7Use &a/kit starterkit &7to claim!'
+    - '&8Free gear to get you started'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  daily:
+    type: TEXT
+    location:
+      world: world
+      x: 5010.529089483064
+      y: 179.6307785762365
+      z: 4997.498152260537
+      yaw: 90.34851
+      pitch: -7.6035066
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&b&l✦ DAILY CRATE ✦'
+    - '&7Free daily reward!'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  common:
+    type: TEXT
+    location:
+      world: world
+      x: 5008.502881122179
+      y: 179.66347029081203
+      z: 4999.523525710065
+      yaw: 89.940186
+      pitch: -15.722635
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&a&l✦ COMMON CRATE ✦'
+    - '&7Basic rewards'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  legendary:
+    type: TEXT
+    location:
+      world: world
+      x: 5007.525136618168
+      y: 179.66177143227628
+      z: 5002.472428149274
+      yaw: 90.315796
+      pitch: -6.7588706
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&6&l✦ LEGENDARY CRATE ✦'
+    - '&7Rare & powerful loot'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  mythic:
+    type: TEXT
+    location:
+      world: world
+      x: 5008.451093846247
+      y: 179.66153462959875
+      z: 5005.469415498557
+      yaw: 90.753296
+      pitch: -11.545768
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&d&l✦ MYTHIC CRATE ✦'
+    - '&7Extremely rare items'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  void:
+    type: TEXT
+    location:
+      world: world
+      x: 5010.500572407276
+      y: 179.62980943383957
+      z: 5007.504105066566
+      yaw: 87.81201
+      pitch: -14.924788
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&5&l✦ VOID CRATE ✦'
+    - '&7The rarest of them all'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  pvppit:
+    type: TEXT
+    location:
+      world: world
+      x: 4990.656677777667
+      y: 180.11650136792815
+      z: 5002.501470503151
+      yaw: 89.14929
+      pitch: -7.5568113
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&c&l⚔ PVP PIT ⚔'
+    - '&7Enter at your own risk!'
+    - '&8Keep inventory is &cOFF'
+    text_shadow: true
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent

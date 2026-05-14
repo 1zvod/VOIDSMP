@@ -1,0 +1,157 @@
+# ============================================
+# VOID SMP - LuckPerms Rank Setup
+# Paste these into server console in order
+# ============================================
+
+# --- CREATE GROUPS ---
+lp creategroup null
+lp creategroup void
+lp creategroup builder
+
+# --- SET GROUP WEIGHTS (higher = more priority) ---
+lp group owner meta setweight 100
+lp group admin meta setweight 90
+lp group mod meta setweight 80
+lp group helper meta setweight 70
+lp group builder meta setweight 65
+lp group null meta setweight 60
+lp group void meta setweight 50
+lp group mvp meta setweight 40
+lp group vip meta setweight 30
+lp group member meta setweight 10
+
+# --- SET PREFIXES ---
+lp group owner meta setprefix 100 "&4&l[OWNER] &4"
+lp group admin meta setprefix 90 "&c[Admin] &c"
+lp group mod meta setprefix 80 "&9[Mod] &b"
+lp group helper meta setprefix 70 "&e[Helper] &e"
+lp group builder meta setprefix 65 "&3[Builder] &3"
+lp group null meta setprefix 60 "&5&l[NULL] &f"
+lp group void meta setprefix 50 "&d&l[VOID] &f"
+lp group mvp meta setprefix 40 "&5[MVP] &d"
+lp group vip meta setprefix 30 "&d[VIP] &f"
+lp group member meta setprefix 10 "&7"
+
+# --- SET SUFFIXES (empty for clean look) ---
+lp group owner meta setsuffix 100 ""
+lp group admin meta setsuffix 90 ""
+lp group mod meta setsuffix 80 ""
+lp group helper meta setsuffix 70 ""
+lp group builder meta setsuffix 65 ""
+lp group null meta setsuffix 60 ""
+lp group void meta setsuffix 50 ""
+lp group mvp meta setsuffix 40 ""
+lp group vip meta setsuffix 30 ""
+lp group member meta setsuffix 10 ""
+
+# --- MEMBER (default) PERMISSIONS ---
+lp group member permission set essentials.spawn true
+lp group member permission set essentials.rtp true
+lp group member permission set essentials.tpa true
+lp group member permission set essentials.tpaccept true
+lp group member permission set essentials.tpdeny true
+lp group member permission set essentials.home true
+lp group member permission set essentials.sethome true
+lp group member permission set essentials.delhome true
+lp group member permission set essentials.balance true
+lp group member permission set essentials.pay true
+lp group member permission set essentials.msg true
+lp group member permission set essentials.reply true
+lp group member permission set essentials.kit true
+lp group member permission set essentials.warp true
+lp group member meta set homes 1
+
+# --- VIP PERMISSIONS ---
+lp group vip parent add member
+lp group vip permission set essentials.back true
+lp group vip permission set essentials.hat true
+lp group vip meta set homes 2
+lp group vip permission set economyshopgui.sellmultiplier.1.25 true
+
+# --- MVP PERMISSIONS ---
+lp group mvp parent add vip
+lp group mvp permission set essentials.enderchest true
+lp group mvp permission set essentials.feed true
+lp group mvp permission set essentials.feed.cooldown.bypass false
+lp group mvp meta set homes 3
+lp group mvp permission set economyshopgui.sellmultiplier.1.5 true
+
+# --- VOID (2nd highest donator) PERMISSIONS ---
+lp group void parent add mvp
+lp group void permission set essentials.heal true
+lp group void permission set essentials.nick true
+lp group void permission set essentials.back.ondeath true
+lp group void permission set essentials.hat true
+lp group void meta set homes 4
+lp group void permission set economyshopgui.sellmultiplier.2 true
+
+# --- NULL (highest donator) PERMISSIONS ---
+lp group null parent add void
+lp group null permission set essentials.fly true
+lp group null permission set essentials.nick.color true
+lp group null permission set essentials.nick.format true
+lp group null permission set essentials.heal true
+lp group null permission set essentials.feed true
+lp group null permission set essentials.top true
+lp group null permission set essentials.ptime true
+lp group null permission set essentials.pweather true
+lp group null permission set essentials.workbench true
+lp group null meta set homes 5
+lp group null permission set economyshopgui.sellmultiplier.3 true
+lp group null permission set essentials.keepxp true
+
+# --- BUILDER (staff) PERMISSIONS ---
+lp group builder parent add member
+lp group builder permission set worldedit.* true
+lp group builder permission set fawe.* true
+lp group builder permission set essentials.fly true
+lp group builder permission set essentials.gamemode true
+lp group builder permission set essentials.speed true
+lp group builder permission set essentials.top true
+lp group builder permission set essentials.back true
+lp group builder meta set homes 5
+
+# --- HELPER (staff) PERMISSIONS ---
+lp group helper parent add member
+lp group helper permission set essentials.mute true
+lp group helper permission set essentials.kick true
+lp group helper permission set essentials.tempban true
+lp group helper permission set essentials.vanish true
+lp group helper permission set essentials.fly true
+lp group helper permission set essentials.back true
+lp group helper permission set essentials.tp true
+lp group helper permission set essentials.tphere true
+lp group helper permission set essentials.invsee true
+lp group helper permission set essentials.enderchest true
+lp group helper meta set homes 5
+
+# --- MOD (staff) PERMISSIONS ---
+lp group mod parent add helper
+lp group mod permission set essentials.ban true
+lp group mod permission set essentials.unban true
+lp group mod permission set essentials.jail true
+lp group mod permission set essentials.socialspy true
+lp group mod permission set essentials.tpo true
+lp group mod permission set essentials.tpohere true
+lp group mod permission set essentials.gamemode true
+lp group mod permission set essentials.heal true
+lp group mod permission set essentials.feed true
+lp group mod permission set coreprotect.inspect true
+lp group mod permission set coreprotect.lookup true
+lp group mod permission set coreprotect.rollback true
+
+# --- ADMIN (staff) PERMISSIONS ---
+lp group admin parent add mod
+lp group admin permission set essentials.* true
+lp group admin permission set worldedit.* true
+lp group admin permission set fawe.* true
+lp group admin permission set coreprotect.* true
+lp group admin permission set luckperms.user.* true
+lp group admin meta set homes 10
+
+# --- OWNER PERMISSIONS ---
+lp group owner permission set * true
+
+# ============================================
+# DONE! Run /tab reload after to update TAB
+# ============================================

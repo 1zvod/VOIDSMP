@@ -1,0 +1,36 @@
+# =============================
+# NxAFKZone - Config
+# Author: NotRenzo
+# =============================
+
+afk:
+  # Time in SECONDS for one AFK reward cycle
+  # 60 = 1 minute
+  time: 60
+
+  # Commands to run when AFK timer ends
+  # {player} will be replaced with player name
+  rewards:
+    - "give {player} iron_ingot 1"
+    - ""
+    - ""
+
+messages:
+  # Shown as BIG CENTER TITLE
+  title: "&6AFK ZONE"
+  subtitle: "&aReward in: &f{time}"
+
+  # Chat messages
+  pos1-set: "&aPos1 set successfully!"
+  pos2-set: "&aPos2 set successfully!"
+  zone-created: "&aAFK Zone created: &f{zone}"
+  zone-deleted: "&cAFK Zone deleted: &f{zone}"
+  no-selection: "&cPlease set both Pos1 and Pos2 first!"
+  wand-given: "&aYou received the AFK Zone Wand!"
+
+settings:
+  # If true, player must stand still inside AFK zone
+  require-no-move: true
+
+  # Reset timer if player jumps / moves (future ready)
+  reset-on-move: false

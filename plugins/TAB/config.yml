@@ -65,7 +65,7 @@ scoreboard:
       - '  &8▸ &fTeam: %betterteams_color%%betterteams_name%'
       - '&8&m                      '
       - '  &8▸ &fCash: &a$%vault_eco_balance_formatted%'
-      - '  &8▸ &fGems: &b0'
+      - '  &8▸ &fCoins: &b%playerpoints_points%'
       - '  &8▸ &fOnline: &f%online%'
       - '&8&m                      '
       - '  %animation:discord-link%'
@@ -104,9 +104,13 @@ primary-group-finding-list:
 - admin
 - mod
 - helper
+- builder
+- null
+- void
 - mvp
 - vip
 - member
+- default
 permission-refresh-interval: 1000
 debug: false
 mysql:
@@ -142,30 +146,46 @@ use-bukkit-permissions-manager: false
 use-online-uuid-in-tablist: true
 groups:
   owner:
-    tabprefix: '%animation:owner-tag% &4'
-    tagprefix: '%animation:owner-tag% &4'
+    tabprefix: '%animation:owner-tag% &f'
+    tagprefix: '%animation:owner-tag% &f'
     tabsuffix: ''
   admin:
-    tabprefix: '&c[Admin] &c'
-    tagprefix: '&c[Admin] &c'
+    tabprefix: '&c&l[ADMIN] &f'
+    tagprefix: '&c&l[ADMIN] &f'
     tabsuffix: ''
   mod:
-    tabprefix: '&9[Mod] &b'
-    tagprefix: '&9[Mod] &b'
+    tabprefix: '&9&l[MOD] &f'
+    tagprefix: '&9&l[MOD] &f'
     tabsuffix: ''
   helper:
-    tabprefix: '&e[Helper] &e'
-    tagprefix: '&e[Helper] &e'
+    tabprefix: '&e&l[HELPER] &f'
+    tagprefix: '&e&l[HELPER] &f'
+    tabsuffix: ''
+  builder:
+    tabprefix: '&3&l[BUILDER] &f'
+    tagprefix: '&3&l[BUILDER] &f'
+    tabsuffix: ''
+  null:
+    tabprefix: '&0&l[NULL] &f'
+    tagprefix: '&0&l[NULL] &f'
+    tabsuffix: ''
+  void:
+    tabprefix: '&d&l[VOID] &f'
+    tagprefix: '&d&l[VOID] &f'
     tabsuffix: ''
   mvp:
-    tabprefix: '&5[MVP] &5'
-    tagprefix: '&5[MVP] &5'
+    tabprefix: '&5&l[MVP] &f'
+    tagprefix: '&5&l[MVP] &f'
     tabsuffix: ''
   vip:
-    tabprefix: '&d[VIP] &d'
-    tagprefix: '&d[VIP] &d'
+    tabprefix: '&d&l[VIP] &f'
+    tagprefix: '&d&l[VIP] &f'
     tabsuffix: ''
   member:
-    tabprefix: '&7'
-    tagprefix: '&7'
+    tabprefix: '&7&l[MEMBER] &f'
+    tagprefix: '&7&l[MEMBER] &f'
+    tabsuffix: ''
+  default:
+    tabprefix: '&7&l[MEMBER] &f'
+    tagprefix: '&7&l[MEMBER] &f'
     tabsuffix: ''

@@ -1,0 +1,270 @@
+menu_title: '&5&l✦ &d&lVOID SHOP &5&l✦'
+open_command: keyshop
+size: 54
+update_interval: 1
+items:
+  border:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: '0-9,17,18,26,27,35,36,44,45-53'
+    display_name: ' '
+    lore: []
+
+  keys_header:
+    material: TRIPWIRE_HOOK
+    slot: 4
+    display_name: '&d&lCrate Keys'
+    enchanted: true
+    lore:
+      - '&7Purchase crate keys with gems!'
+      - ''
+      - '&8Your Gems: &b%playerpoints_points%'
+
+  ranks_header:
+    material: NETHER_STAR
+    slot: 49
+    display_name: '&5&lRank Shop'
+    lore:
+      - '&7Purchase ranks with gems!'
+      - ''
+      - '&8Your Gems: &b%playerpoints_points%'
+
+  common_key:
+    material: TRIPWIRE_HOOK
+    slot: 11
+    enchanted: true
+    display_name: '&a&lCommon Key'
+    lore:
+      - '&7A basic crate key.'
+      - ''
+      - '&8Price: &b50 Gems'
+      - ''
+      - '&7Your Gems: &b%playerpoints_points%'
+      - ''
+      - '&aClick to purchase!'
+    left_click_commands:
+      - '[console] points take %player_name% 50'
+      - '[console] excellentcrates key give %player_name% common_key 1'
+      - '[message] &a&lPURCHASED! &7You bought a &a&lCommon Key&7!'
+      - '[close]'
+    left_click_requirement:
+      requirements:
+        check:
+          type: javascript
+          expression: '%playerpoints_points% >= 50'
+      deny_commands:
+        - '[message] &c&lNOT ENOUGH GEMS! &7You need &b50 Gems&7!'
+
+  legendary_key:
+    material: TRIPWIRE_HOOK
+    slot: 13
+    enchanted: true
+    display_name: '&c&lLegendary Key'
+    lore:
+      - '&7A rare legendary crate key.'
+      - ''
+      - '&8Price: &b200 Gems'
+      - ''
+      - '&7Your Gems: &b%playerpoints_points%'
+      - ''
+      - '&aClick to purchase!'
+    left_click_commands:
+      - '[console] points take %player_name% 200'
+      - '[console] excellentcrates key give %player_name% legendary_key 1'
+      - '[message] &a&lPURCHASED! &7You bought a &c&lLegendary Key&7!'
+      - '[close]'
+    left_click_requirement:
+      requirements:
+        check:
+          type: javascript
+          expression: '%playerpoints_points% >= 200'
+      deny_commands:
+        - '[message] &c&lNOT ENOUGH GEMS! &7You need &b200 Gems&7!'
+
+  mythic_key:
+    material: TRIPWIRE_HOOK
+    slot: 15
+    enchanted: true
+    display_name: '&d&lMythic Key'
+    lore:
+      - '&7A powerful mythic crate key.'
+      - ''
+      - '&8Price: &b500 Gems'
+      - ''
+      - '&7Your Gems: &b%playerpoints_points%'
+      - ''
+      - '&aClick to purchase!'
+    left_click_commands:
+      - '[console] points take %player_name% 500'
+      - '[console] excellentcrates key give %player_name% mythic 1'
+      - '[message] &a&lPURCHASED! &7You bought a &d&lMythic Key&7!'
+      - '[close]'
+    left_click_requirement:
+      requirements:
+        check:
+          type: javascript
+          expression: '%playerpoints_points% >= 500'
+      deny_commands:
+        - '[message] &c&lNOT ENOUGH GEMS! &7You need &b500 Gems&7!'
+
+  void_key:
+    material: TRIPWIRE_HOOK
+    slot: 22
+    enchanted: true
+    display_name: '&5&lVoid Key'
+    lore:
+      - '&7The rarest key in the server.'
+      - ''
+      - '&8Price: &b1K Gems'
+      - ''
+      - '&7Your Gems: &b%playerpoints_points%'
+      - ''
+      - '&aClick to purchase!'
+    left_click_commands:
+      - '[console] points take %player_name% 1000'
+      - '[console] excellentcrates key give %player_name% void 1'
+      - '[message] &a&lPURCHASED! &7You bought a &5&lVoid Key&7!'
+      - '[close]'
+    left_click_requirement:
+      requirements:
+        check:
+          type: javascript
+          expression: '%playerpoints_points% >= 1000'
+      deny_commands:
+        - '[message] &c&lNOT ENOUGH GEMS! &7You need &b1K Gems&7!'
+
+  vip_rank:
+    material: ENCHANTED_BOOK
+    slot: 29
+    display_name: '&d&l[VIP]'
+    lore:
+      - '&8&m                         '
+      - '&d&lVIP &7Rank Perks:'
+      - ''
+      - '  &8- &f/back &7- Return to last location'
+      - '  &8- &f/hat &7- Wear any block as hat'
+      - '  &8- &f2 Homes'
+      - '  &8- &f1.25x Sell Multiplier'
+      - '&8&m                         '
+      - ''
+      - '&8Price: &b5K Gems'
+      - '&7Your Gems: &b%playerpoints_points%'
+      - ''
+      - '&aClick to purchase!'
+    left_click_commands:
+      - '[console] points take %player_name% 5000'
+      - '[console] lp user %player_name% parent add vip'
+      - '[message] &a&lPURCHASED! &7You are now &d&l[VIP]&7!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+    left_click_requirement:
+      requirements:
+        check:
+          type: javascript
+          expression: '%playerpoints_points% >= 5000'
+      deny_commands:
+        - '[message] &c&lNOT ENOUGH GEMS! &7You need &b5K Gems&7!'
+
+  mvp_rank:
+    material: ENCHANTED_BOOK
+    slot: 31
+    display_name: '&5&l[MVP]'
+    lore:
+      - '&8&m                         '
+      - '&5&lMVP &7Rank Perks:'
+      - ''
+      - '  &8- &fAll VIP perks &7+'
+      - '  &8- &f/enderchest &7- Portable ender chest'
+      - '  &8- &f/feed &7- Feed yourself'
+      - '  &8- &f3 Homes'
+      - '  &8- &f1.5x Sell Multiplier'
+      - '&8&m                         '
+      - ''
+      - '&8Price: &b15K Gems'
+      - '&7Your Gems: &b%playerpoints_points%'
+      - ''
+      - '&aClick to purchase!'
+    left_click_commands:
+      - '[console] points take %player_name% 15000'
+      - '[console] lp user %player_name% parent add mvp'
+      - '[message] &a&lPURCHASED! &7You are now &5&l[MVP]&7!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+    left_click_requirement:
+      requirements:
+        check:
+          type: javascript
+          expression: '%playerpoints_points% >= 15000'
+      deny_commands:
+        - '[message] &c&lNOT ENOUGH GEMS! &7You need &b15K Gems&7!'
+
+  void_rank:
+    material: ENCHANTED_BOOK
+    slot: 33
+    display_name: '&d&l[VOID]'
+    lore:
+      - '&8&m                         '
+      - '&d&lVOID &7Rank Perks:'
+      - ''
+      - '  &8- &fAll MVP perks &7+'
+      - '  &8- &f/heal &7- Heal yourself'
+      - '  &8- &f/nick &7- Custom nickname'
+      - '  &8- &f/back on death'
+      - '  &8- &f4 Homes'
+      - '  &8- &f2x Sell Multiplier'
+      - '&8&m                         '
+      - ''
+      - '&8Price: &b35K Gems'
+      - '&7Your Gems: &b%playerpoints_points%'
+      - ''
+      - '&aClick to purchase!'
+    left_click_commands:
+      - '[console] points take %player_name% 35000'
+      - '[console] lp user %player_name% parent add void'
+      - '[message] &a&lPURCHASED! &7You are now &d&l[VOID]&7!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+    left_click_requirement:
+      requirements:
+        check:
+          type: javascript
+          expression: '%playerpoints_points% >= 35000'
+      deny_commands:
+        - '[message] &c&lNOT ENOUGH GEMS! &7You need &b35K Gems&7!'
+
+  null_rank:
+    material: ENCHANTED_BOOK
+    slot: 40
+    display_name: '&0&l[NULL]'
+    lore:
+      - '&8&m                         '
+      - '&0&lNULL &7Rank Perks:'
+      - ''
+      - '  &8- &fAll VOID perks &7+'
+      - '  &8- &f/fly &7- Creative flight'
+      - '  &8- &f/nick color &7- Colored nicknames'
+      - '  &8- &f/top &7- Teleport to highest block'
+      - '  &8- &f/ptime &7- Personal time'
+      - '  &8- &f/pweather &7- Personal weather'
+      - '  &8- &f/craft &7- Portable crafting'
+      - '  &8- &f5 Homes'
+      - '  &8- &f3x Sell Multiplier'
+      - '  &8- &fKeep XP on death'
+      - '&8&m                         '
+      - ''
+      - '&8Price: &b75K Gems'
+      - '&7Your Gems: &b%playerpoints_points%'
+      - ''
+      - '&aClick to purchase!'
+    left_click_commands:
+      - '[console] points take %player_name% 75000'
+      - '[console] lp user %player_name% parent add null'
+      - '[message] &a&lPURCHASED! &7You are now &0&l[NULL]&7!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+    left_click_requirement:
+      requirements:
+        check:
+          type: javascript
+          expression: '%playerpoints_points% >= 75000'
+      deny_commands:
+        - '[message] &c&lNOT ENOUGH GEMS! &7You need &b75K Gems&7!'

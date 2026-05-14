@@ -38,11 +38,6 @@ Rewards:
   List:
     common_key:
       Type: COMMAND
-      PreviewData:
-        Type: VANILLA
-        Tag:
-          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
-          DataVersion: 4189
       Weight: 10.0
       Rarity: common
       Broadcast: false
@@ -62,14 +57,15 @@ Rewards:
       Required_Permissions: []
       Name: <bold><green>Common Key
       Description: []
-      Commands: []
+      Commands:
+      - crate key give %player_name% common_key 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+          DataVersion: 4189
     common_key_1:
       Type: COMMAND
-      PreviewData:
-        Type: VANILLA
-        Tag:
-          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
-          DataVersion: 4189
       Weight: 10.0
       Rarity: common
       Broadcast: false
@@ -89,14 +85,15 @@ Rewards:
       Required_Permissions: []
       Name: <bold><green>Common Key
       Description: []
-      Commands: []
+      Commands:
+      - crate key give %player_name% common_key 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+          DataVersion: 4189
     common_key_2:
       Type: COMMAND
-      PreviewData:
-        Type: VANILLA
-        Tag:
-          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
-          DataVersion: 4189
       Weight: 10.0
       Rarity: common
       Broadcast: false
@@ -116,14 +113,15 @@ Rewards:
       Required_Permissions: []
       Name: <bold><green>Common Key
       Description: []
-      Commands: []
+      Commands:
+      - crate key give %player_name% common_key 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+          DataVersion: 4189
     common_key_3:
       Type: COMMAND
-      PreviewData:
-        Type: VANILLA
-        Tag:
-          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
-          DataVersion: 4189
       Weight: 10.0
       Rarity: common
       Broadcast: false
@@ -143,14 +141,15 @@ Rewards:
       Required_Permissions: []
       Name: <bold><green>Common Key
       Description: []
-      Commands: []
+      Commands:
+      - crate key give %player_name% common_key 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+          DataVersion: 4189
     common_key_4:
       Type: COMMAND
-      PreviewData:
-        Type: VANILLA
-        Tag:
-          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
-          DataVersion: 4189
       Weight: 10.0
       Rarity: common
       Broadcast: false
@@ -170,14 +169,15 @@ Rewards:
       Required_Permissions: []
       Name: <bold><green>Common Key
       Description: []
-      Commands: []
+      Commands:
+      - crate key give %player_name% common_key 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+          DataVersion: 4189
     common_key_5:
       Type: COMMAND
-      PreviewData:
-        Type: VANILLA
-        Tag:
-          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
-          DataVersion: 4189
       Weight: 10.0
       Rarity: common
       Broadcast: false
@@ -197,14 +197,15 @@ Rewards:
       Required_Permissions: []
       Name: <bold><green>Common Key
       Description: []
-      Commands: []
+      Commands:
+      - crate key give %player_name% common_key 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+          DataVersion: 4189
     common_key_6:
       Type: COMMAND
-      PreviewData:
-        Type: VANILLA
-        Tag:
-          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
-          DataVersion: 4189
       Weight: 10.0
       Rarity: common
       Broadcast: false
@@ -224,14 +225,15 @@ Rewards:
       Required_Permissions: []
       Name: <bold><green>Common Key
       Description: []
-      Commands: []
+      Commands:
+      - crate key give %player_name% common_key 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"common_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"green","italic":false,"obfuscated":false,"strikethrough":false,"text":"Common Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+          DataVersion: 4189
     legendary_key:
       Type: COMMAND
-      PreviewData:
-        Type: VANILLA
-        Tag:
-          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"legendary_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Legendary Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
-          DataVersion: 4189
       Weight: 10.0
       Rarity: common
       Broadcast: false
@@ -251,14 +253,15 @@ Rewards:
       Required_Permissions: []
       Name: <bold><red>Legendary Key
       Description: []
-      Commands: []
+      Commands:
+      - crate key give %player_name% legendary_key 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"legendary_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Legendary Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+          DataVersion: 4189
     legendary_key_1:
       Type: COMMAND
-      PreviewData:
-        Type: VANILLA
-        Tag:
-          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"legendary_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Legendary Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
-          DataVersion: 4189
       Weight: 10.0
       Rarity: common
       Broadcast: false
@@ -278,14 +281,15 @@ Rewards:
       Required_Permissions: []
       Name: <bold><red>Legendary Key
       Description: []
-      Commands: []
+      Commands:
+      - crate key give %player_name% legendary_key 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"legendary_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Legendary Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+          DataVersion: 4189
     legendary_key_2:
       Type: COMMAND
-      PreviewData:
-        Type: VANILLA
-        Tag:
-          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"legendary_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Legendary Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
-          DataVersion: 4189
       Weight: 10.0
       Rarity: common
       Broadcast: false
@@ -305,14 +309,15 @@ Rewards:
       Required_Permissions: []
       Name: <bold><red>Legendary Key
       Description: []
-      Commands: []
+      Commands:
+      - crate key give %player_name% legendary_key 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"legendary_key"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"red","italic":false,"obfuscated":false,"strikethrough":false,"text":"Legendary Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+          DataVersion: 4189
     mythic_key:
       Type: COMMAND
-      PreviewData:
-        Type: VANILLA
-        Tag:
-          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"mythic"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Mythic Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
-          DataVersion: 4189
       Weight: 10.0
       Rarity: common
       Broadcast: false
@@ -332,14 +337,15 @@ Rewards:
       Required_Permissions: []
       Name: <bold><light_purple>Mythic Key
       Description: []
-      Commands: []
+      Commands:
+      - crate key give %player_name% mythic 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"mythic"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Mythic Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+          DataVersion: 4189
     mythic_key_1:
       Type: COMMAND
-      PreviewData:
-        Type: VANILLA
-        Tag:
-          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"mythic"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Mythic Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
-          DataVersion: 4189
       Weight: 10.0
       Rarity: common
       Broadcast: false
@@ -359,14 +365,15 @@ Rewards:
       Required_Permissions: []
       Name: <bold><light_purple>Mythic Key
       Description: []
-      Commands: []
-    void_key:
-      Type: COMMAND
+      Commands:
+      - crate key give %player_name% mythic 1
       PreviewData:
         Type: VANILLA
         Tag:
-          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"void"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Void Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"mythic"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"light_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Mythic Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
           DataVersion: 4189
+    void_key:
+      Type: COMMAND
       Weight: 10.0
       Rarity: common
       Broadcast: false
@@ -386,4 +393,10 @@ Rewards:
       Required_Permissions: []
       Name: <bold><dark_purple>Void Key
       Description: []
-      Commands: []
+      Commands:
+      - crate key give %player_name% void 1
+      PreviewData:
+        Type: VANILLA
+        Tag:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentcrates:crate_key.id":"void"}},"minecraft:custom_name":''{"extra":[{"bold":true,"color":"dark_purple","italic":false,"obfuscated":false,"strikethrough":false,"text":"Void Key","underlined":false}],"text":""}''},count:1,id:"minecraft:tripwire_hook"}'
+          DataVersion: 4189

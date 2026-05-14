@@ -32,18 +32,19 @@ MyAnimation1:
     - '&5-&d--------------'
 
 owner-tag:
-  change-interval: 200
+  change-interval: 150
   texts:
-    - "&4&l[&c&lO&4&lWNER&4&l]"
-    - "&4&l[&4&lO&c&lW&4&lNER&4&l]"
-    - "&4&l[&4&lOW&c&lN&4&lER&4&l]"
-    - "&4&l[&4&lOWN&c&lE&4&lR&4&l]"
-    - "&4&l[&4&lOWNE&c&lR&4&l]"
-    - "&4&l[&0&lO&4&lWNER&4&l]"
-    - "&4&l[&4&lO&0&lW&4&lNER&4&l]"
-    - "&4&l[&4&lOW&0&lN&4&lER&4&l]"
-    - "&4&l[&4&lOWN&0&lE&4&lR&4&l]"
-    - "&4&l[&4&lOWNE&0&lR&4&l]"
+    - "&4&l[&c&lO&c&lW&4&lN&4&lE&4&lR&4&l]"
+    - "&4&l[&4&lO&c&lW&c&lN&4&lE&4&lR&4&l]"
+    - "&4&l[&4&lO&4&lW&c&lN&c&lE&4&lR&4&l]"
+    - "&4&l[&4&lO&4&lW&4&lN&c&lE&c&lR&4&l]"
+    - "&4&l[&4&lO&4&lW&4&lN&4&lE&c&lR&c&l]"
+    - "&4&l[&4&lO&4&lW&4&lN&4&lE&4&lR&c&l]"
+    - "&4&l[&4&lO&4&lW&4&lN&4&lE&c&lR&c&l]"
+    - "&4&l[&4&lO&4&lW&4&lN&c&lE&c&lR&4&l]"
+    - "&4&l[&4&lO&4&lW&c&lN&c&lE&4&lR&4&l]"
+    - "&4&l[&4&lO&c&lW&c&lN&4&lE&4&lR&4&l]"
+    - "&4&l[&c&lO&c&lW&4&lN&4&lE&4&lR&4&l]"
 
 discord-link:
   change-interval: 200
